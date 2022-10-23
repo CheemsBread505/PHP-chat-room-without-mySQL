@@ -15,5 +15,5 @@ else {
 ?>
 
 <html>
-    <script type="text/javascript">location.href = 'index.php';</script>
+    <script type="text/javascript">location.href = '/';</script>
 </html>

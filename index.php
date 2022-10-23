@@ -7,9 +7,6 @@
     <title>Chat room with out mySQL</title>
 </head>
 <body>
-    <button onClick="window.location.reload();">Refresh</button>
-    <br>
-    <br>
     <form action="post.php" method="POST">
         <label for="uname">User name:</label><br>
         <input type="text" id="fname" name="uname"><br>
@@ -20,12 +17,7 @@
 
     <br>
     
-    <?php
-        $fh = fopen('chat.txt','r');
-        while ($line = fgets($fh)) {
-        echo($line);
-        }
-        fclose($fh);
-    ?>
+    <iframe src="messages.php"></iframe>
+
 </body>
 </html>
