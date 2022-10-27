@@ -18,6 +18,10 @@
     <br>
     
     <iframe src="messages.php"></iframe>
+    
+    <?php
+        echo('<script>console.log("Hello world!");</script>')
+    ?>
 
 </body>
 </html>
